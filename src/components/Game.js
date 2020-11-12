@@ -61,10 +61,6 @@ export default class Game extends Component {
 
 
         return (
-            <div align="center"> 
-                <br></br>
-                <h1> RAS Sample React JS App </h1>
-                               
             <div className="game" align="center">
                                 <div className="game-board">
                     <Board onClick={(i) => this.handleClick(i)}
@@ -75,7 +71,6 @@ export default class Game extends Component {
                     <ul>{moves}</ul>
                 </div>
 
-            </div>
             </div>
         )
     }
