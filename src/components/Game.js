@@ -61,7 +61,7 @@ export default class Game extends Component {
 
 
         return (
-            <div className="game" align="center">
+            <div className="game">
                                 <div className="game-board">
                     <Board onClick={(i) => this.handleClick(i)}
                         squares={current.squares} />
