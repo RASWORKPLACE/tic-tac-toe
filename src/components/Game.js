@@ -71,6 +71,7 @@ export default class Game extends Component {
          <br></br><br></br><br></br><br></br><br></br><br></br><br>
          </br><br></br><br></br><br></br><br></br><br></br>
          <div className="game-info">
+             <br></br>
                    <div>{status}</div>
                        <ul>{moves}</ul>
                  </div>
