@@ -61,14 +61,14 @@ export default class Game extends Component {
 
         return (
             <div>
-                <h1> &nbsp; RAS Samples</h1>
+                <h1> &nbsp; &nbsp; RAS Samples</h1>
         <div className="game">
                 <div className="game-board">
                       <Board onClick={(i) => this.handleClick(i)}
                         squares={current.squares} />
                 </div>
          </div>
-         <br></br><br></br><br></br><br></br><br></br><br>
+         <br></br><br></br><br></br><br></br><br></br><br></br><br>
          </br><br></br><br></br><br></br><br></br><br></br>
          <div className="game-info">
                    <div>{status}</div>
