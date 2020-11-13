@@ -59,16 +59,22 @@ export default class Game extends Component {
             status = 'Next Player is ' + (this.state.xIsNext ? 'X' : 'O');
         }
 
-
         return (
-            <div className="game">
-                                <div className="game-board">
-                    <Board onClick={(i) => this.handleClick(i)}
+            <div>
+                <h1> &nbsp; RAS Samples</h1>
+        <div className="game">
+                <div className="game-board">
+                      <Board onClick={(i) => this.handleClick(i)}
                         squares={current.squares} />
                 </div>
-                  
-
-            </div>
+         </div>
+         <br></br><br></br><br></br><br></br><br></br><br>
+         </br><br></br><br></br><br></br><br></br><br></br>
+         <div className="game-info">
+                   <div>{status}</div>
+                       <ul>{moves}</ul>
+                 </div>
+                </div>
         )
     }
 }

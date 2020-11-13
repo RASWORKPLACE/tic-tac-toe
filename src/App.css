@@ -2,7 +2,7 @@
 .square {
   background: #fff;
   border: 1px solid #999;
-  float: left;
+  float:left;
   font-size: 25px;
   font-weight: bold;
   margin-right: -1px;
@@ -66,6 +66,7 @@
  }
  /* Game */
 .game {
+  position:fixed;
   display: flex;
   flex-direction: row;
  }
@@ -80,6 +81,3 @@ ul {
   margin-bottom: 10px;
  }
  
- .h1  {
-   color: red;
- }
